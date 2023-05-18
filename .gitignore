@@ -1,0 +1,13 @@
+# ESTA SIRVE PARA IGNORAR TODAS LAS CARPETAS QUE NO NECESITAS SUBIR
+
+# PARA HACERLO MAS RAPIDO EXISTE UNA PAGINA QUE SE LLAMA GITIGNORE.IO
+
+# deberias siempre poner WINDOW - LINUX - MACOS - NODE - VISUALSTUDIOCODE
+
+# en la pagina para que te haga el script automatico
+
+# .carpeta-que-no-necesito
+# .carpeta-mala
+# .ejemplo-carpeta
+
+

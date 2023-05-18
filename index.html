@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion DOM basica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Manipulacion DOM básica</h1>
+
+    <form action="#">
+        <input id="inp-calculo1" placeholder="Escribe algo aqui" onchange="console.log('onchange sirve para escuchar que el imput cambio');">
+        <input id="inp-calculo2" placeholder="Escribe algo aqui">
+        <button id="btnCalculo">Calcular</button>
+
+        <p id="resultado"></p>
+
+    <!-- Para que se ejecute una funcion aqui en html con un boton se usa  el metodo onClick pero
+    para dejarlo mas limpio el codigo HTML esto no es necesario ya que se puede hacer
+    con un **addEventListener** desde JavaScript
+    <button id="btnCalculo" onclick="calculoConEventoOnClickEnBtn()">Calcular</button> -->
+    
+        
+    </form>
+    
+
+    <!-- Para que se ejecute una funcion aqui en html con un boton se usa  el metodo onClick pero
+    para dejarlo mas limpio el codigo HTML esto no es necesario ya que se puede hacer
+    con un **addEventListener** desde JavaScript
+    <button id="btnCalculo" onclick="calculoConEventoOnClickEnBtn()">Calcular</button> -->
+    
+    <p id="resultado"></p>
+    <script src="script.js"></script>
+</body>
+</html>
